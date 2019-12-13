@@ -1,6 +1,7 @@
 """
 Labour work #2. Levenshtein distance.
 """
+
 def generate_edit_matrix(num_rows: int, num_cols: int) -> list:
     edit_matrix = []
     if isinstance(num_rows, int) and isinstance(num_cols, int):
